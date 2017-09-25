@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Dragon Ball Z Giphy</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+<body>
+    <nav class="navbar navbar-default">
+      <div class="container">
+        <div class="navbar-header">
+          <h2>Dragon Ball Z Giphy</h2>
+        </div>
+        <div id="navbar" class="navbar-collapse collapse">
+          <form class="navbar-form navbar-right">
+            <div class="form-group">
+              <input type="text" id ="dbzInput" placeholder="Hero Search" class="form-control">
+            </div>
+            <button type="submit" id="addHero" class="btn btn-primary">Search</button>
+          </form>
+        </div>
+      </div>
+    </nav>
+<div class="container-fluid text-center">    
+  <div class="row content">
+  <!--Left side nav-->
+    <div class="col-sm-2 sidenav">
+      <div class="well">
+        <img src="assets/images/vegeta-young.gif">
+      </div>
+      <div class="well">
+        <img src="assets/images/Vegeta-Saiyan.jpg">
+      </div>
+      <div class="well">
+        <img src="assets/images/vegeta-ss2.jpg">
+      </div>
+      <div class="well">
+        <img src="assets/images/vegeta-ssg.jpg">
+      </div>
+    </div>
+  <!--Middle area to seach and show images-->
+  <div class="col-sm-8 text-left"> 
+    <div id ="dbzButtons">
+    </div> 
+  <!--new buttons go here with their rating in a <p> tag-->
+      <div id="heros" class="well">
+
+      </div>
+  </div>
+  <!--Right side nav-->
+    <div class="col-sm-2 sidenav" >
+      <div class="well">
+        <img src="assets/images/goku-young.gif">
+      </div>
+      <div class="well">
+        <img src="assets/images/goku-saiyan.jpg">
+      </div>
+      <div class="well">
+        <img src="assets/images/goku-ss3.jpg">
+      </div>
+      <div class="well">
+        <img src="assets/images/goku-ssg.jpg">
+      </div>
+    </div>
+  </div>
+</div>
+<script src="assets/javascript/giphy.js"></script>
+</body>
+</html>
